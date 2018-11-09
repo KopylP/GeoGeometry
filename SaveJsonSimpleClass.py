@@ -8,3 +8,4 @@ def saveJson(obj):
 
 obj = {"Hello": "World"}
 saveJson(obj)
+print("Hello World");
