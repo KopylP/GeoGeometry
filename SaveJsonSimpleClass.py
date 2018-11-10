@@ -1,10 +1,10 @@
 import json
-from typing import Dict
 
 
-def saveJson(obj):
+def saveJson(var):
     with open("test.json", "w") as f:
-        json.dump(obj, f)
+        json.dump(var, f)
+
 
 obj = {"Hello": "World"}
 saveJson(obj)
